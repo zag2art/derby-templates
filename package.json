@@ -1,20 +1,31 @@
 {
   "name": "derby-templates",
-  "version": "0.3.7",
-  "description": "",
+  "version": "0.4.0",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha && ./node_modules/.bin/jshint lib/*.js test/*.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/derbyjs/derby-templates.git"
+  },
+  "author": "Nate Smith",
   "license": "MIT",
   "dependencies": {
-    "saddle": "^0.6.0",
-    "serialize-object": "~0.0.5"
+    "saddle": "^0.7.0",
+    "serialize-object": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/derbyjs/derby-templates/issues"
   },
   "devDependencies": {
     "expect.js": "~0.3.1",
     "jshint": "~2.4.4",
     "mocha": "~1.17.1"
-  }
+  },
+  "homepage": "https://github.com/derbyjs/derby-templates#readme",
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
 }
